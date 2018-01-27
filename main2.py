@@ -7,7 +7,7 @@ Robot1 = Robot.one_string('Altman-X27-Cobalt')
 # Call the robotInfo function using the Robot2 object
 Robot1.robotInfo()
 
-# Set state variable equal to return value from check class
+# Set state variable equal to return value from check method
 state = Robot.check()
 
 # Call methods depending on value of state
