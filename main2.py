@@ -11,10 +11,10 @@ Robot1.robotInfo()
 # Set variables equal to values from data dictionary
 shelf = data["Shelf status"]
 stock = data["Product stock"]
-print("Power = On\n")
+print("Power = On")
 print("Altman activated and ready to work. Checking store for any missing product.\n")
 
-# Call methods depending on values of data dictionary
+# Call functions depending on values of data dictionary
 if shelf == 'Full':
     print("Shelf status: " + shelf)
     sleep()

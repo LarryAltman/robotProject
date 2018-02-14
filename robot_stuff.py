@@ -21,4 +21,4 @@ def fetch():
 
 def sleep():
     print('No action required. Altman returning to backroom to recharge.')
-    print("\nPower = Off")
+    print("Power = Off")
