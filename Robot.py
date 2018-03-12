@@ -7,17 +7,20 @@ class Robot(object):
         self.color = color
 
     # Print robot information provided by object
-    def robotInfo(self):
-        print('Name: %s\nModel: %s\nColor: %s\n' % (self.name, self.model, self.color))
+    def robot_info(self):
+        print('Name: %s\nModel: %s\nColor: %s\n' % (self.name, self.model,
+                                                    self.color))
 
-    # Use hyphen as string delimiter
     @classmethod
-    def one_string(cls, my_str):
-        name, model, color = my_str.split('-')
+    # Use hyphen as string delimiter
+    def one_string(cls, foo):
+        name, model, color = foo.split('-')
         return cls(name, model, color)
+
 
 def fetch():
     print("Delivering product to target: Shelf")
+
 
 def sleep():
     print('No action required. Altman returning to backroom to recharge.')

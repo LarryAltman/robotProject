@@ -1,6 +1,7 @@
-from robot_stuff import *
+from Robot import Robot
+from dice_game_auto import dice_game
 
-rob1 = Robot.one_string('Altman-X27-Cobalt')
-rob1.robotInfo()
+robot_1 = Robot.one_string('Altman-X27-Cobalt')
+robot_1.robot_info()
 
-from dice_game_auto import *
+dice_game()
